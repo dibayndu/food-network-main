@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.color-orange{
+    color: orange;
+}
+.first-part{
+    display: flex;
+    margin-top: 50px;
+}
+.first-part-blog{
+    width: 50%;
+    margin: 5%;
+    
+}
+
+.font-size{
+    font-size: 50px;
+    color: grey;
+    }
+    .font-blog{
+        font-size: 20px;
+        margin-bottom: 50px;
+        color: gray;
+    }
+.first-part-img{
+    width: 50%;
+}
+.first-part-img img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 15px 15px 15px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
