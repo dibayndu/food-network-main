@@ -146,6 +146,20 @@ footer{
     margin-right: 6%;
 }
 
+#form{
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color:white;
+      
+  width: 20%;
+  margin-left: 37%;
+  margin-right: 5%;
+  padding: 20px;
+  box-shadow: 10px 10px 40px black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  }
 
 
 
