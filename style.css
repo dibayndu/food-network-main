@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 .color-orange{
     color: orange;
@@ -7,33 +8,178 @@ body{
 .first-part{
     display: flex;
     margin-top: 50px;
+    
 }
 .first-part-blog{
     width: 50%;
-    margin: 5%;
+    margin: 1%;
+    padding-left: 5%;
     
 }
 
-.font-size{
-    font-size: 50px;
+#font-size-1{
+    font-size: 60px;
     color: grey;
+    margin-bottom: 2px;
     }
-    .font-blog{
-        font-size: 20px;
-        margin-bottom: 50px;
+    #font-size-2{
+        font-size: 60px;
         color: gray;
+        margin-top: 1px;
+        margin-bottom: 0%;
     }
+    #font-size-3{
+        font-size: 60px;
+        color: gray;
+        margin-top: 1px;
+
+    }
+#blog-font-1{
+    color: gray;
+    margin-bottom: 50px;
+}
+#blog-font-2{
+    margin-bottom: 50px;
+}
+
 .first-part-img{
     width: 50%;
 }
+
 .first-part-img img{
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
+
 .button{
     text-decoration: none;
     background-image: linear-gradient(orange,red);
     padding: 15px 15px 15px;
     color: white;
-    border-radius: 20px;
+    border-radius: 50px;
     font-size: 20px;
+    margin-top: 10%;
+    box-shadow: 5px 5px 5px 5px #f39e7f;
 }
+
+.second-part{
+    display: flex;
+    margin-top: 50px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: round;
+    height: 600px;
+    margin-bottom: 7%;
+}
+#my-recp{
+    text-align: center;
+    color: gray;
+}
+#blog-3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.third-part{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.second-blog p {
+    margin-bottom: 10%;
+    margin-right: 30%;
+}
+.package-style{
+            
+    background-color: white;
+    width: 30%;
+    padding: 20px 20px 20px;
+    box-shadow: 0px 0px 21px grey;
+    border-radius: 20px;
+    margin-bottom: 20px;
+ }
+ .package-style img{
+    
+    width: 100%;
+    height: 50%;
+    object-fit: scale-down;
+ }
+.followers{
+    display: flex;
+}
+footer{
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(13, 13, 31);
+    color: white;
+    padding: 30px 30px 30px;
+
+}
+.package-style-follow {
+    background-color:white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 20px 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#color-gray{
+    color: gray;
+}
+.second-blog{
+    margin-top: 5%;
+}
+.follow {
+    text-align: center;
+    width: 33.33%;
+}
+#a1 {
+    margin-left: 7%;
+    margin-right: 3%;
+}
+#a2 {
+    margin-left: 2%;
+    margin-right: 4%;
+}
+#a3 {
+    margin-left: 1%;
+    margin-right: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+    background-color:gray;
+    overflow: hidden;
+  }
+.topnav a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+  
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
